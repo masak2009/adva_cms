@@ -47,7 +47,7 @@ patch_file 'config/initializers/new_rails_defaults.rb',
 #ActionController::Routing.generate_best_match = false",
   :patch_mode => :insert_before
 
-git :clone => 'git://github.com/svenfuchs/adva_cms.git vendor/adva # this might take a bit, grab a coffee meanwhile :)'
+git :clone => 'git://github.com/masak2009/adva_cms.git vendor/adva # this might take a bit, grab a coffee meanwhile :)'
 
 inside('vendor/adva') do
   run 'git checkout -b tag/0.3.2 0.3.2'
