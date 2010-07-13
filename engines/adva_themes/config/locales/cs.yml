@@ -1,0 +1,9 @@
+cs:
+  adva:
+    theme:
+      validation:
+        empty_name: "Jméno nemůže být prázdné"  
+  activerecord:
+    errors:  
+      messages:
+        no_slashes: Nemůže obsahovat lomítka

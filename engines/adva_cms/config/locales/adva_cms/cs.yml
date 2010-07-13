@@ -1,0 +1,1110 @@
+cs:
+  activerecord:
+    errors:
+      messages:
+        only_integer: může být jen celé číslo.
+  adva:
+    common:
+      change_language: "Změnit jazyk:"
+      locale: Jazyk
+      content_locale: Jazyk obsahu
+      about: O
+      details: Detaily
+      by_author: od {{author}}
+      cancel: Zrušit
+      edit: Upravit
+      delete: Smazat
+      hide: Skrýt
+      save: Uložit
+      save_without_revision: Uložit bez kontroly
+      import: Importovat
+      upload: Nahrát
+      import: Importovat
+      subscribe: Podepsat
+      approve: Schválit
+      unapprove: Odschválit
+      language: jazyk
+      none: žádný
+      next: další
+      previous: Předchozí
+      events: Události
+      you: Vy
+      connector:
+        or: nebo
+      "yes": "ano"
+      by_author: od {{author}}
+      content_categories: "v {{links}}<br />"
+      content_tags: "tagged: {{links}}<br />"
+      unknown: neznámý
+      add: Přidat
+      add_new: přidat nový
+    titles: 
+      accounts: Účty
+      actions: Akce
+      activate: Activovat
+      archives: Archiv
+      articles: Články
+      assets: Přílohy
+      author: Autor
+      board: Sekce
+      boards: Sekce
+      cache: Cache
+      calendar_events: Události
+      categories: Kategorie
+      clear: Smazat
+      clear_all: Smazat vše
+      comment: Komentář
+      comments: Komentáře
+      contact_mails: Kontaktní e-maily
+      dashboard: Dashboard
+      deactivate: Deaktivovat
+      download: Stáhnout
+      email_notifications: Upozornění e-mailem
+      events: Události
+      files: Soubory
+      filter: Filtr
+      filters: Filtry
+      general_settings: Základní nastavení
+      history: Historie
+      import: Import
+      install: Adva-cms instalace
+      issues: Články
+      login: Přihlásit
+      logout: Odhlásit
+      register: Registrovat
+      manage: Spravovat
+      meta_tags: Meta tags
+      new: Nový
+      edit: Upravit
+      delete: Smazat
+      home_section: Domovská sekce
+      newsletters: Newslettery
+      options: Nastavení
+      overview: Přehled
+      parent_settings: Nastavení rodiče
+      pending: Čeká na schválení
+      permalink: Permalink
+      permissions: Práva
+      photos: Fotografie
+      plugin: Zásuvný modul
+      plugins: Zásuvné moduly
+      posts: Přízpěvky
+      preview: Náhled
+      publish_in_categories: Zveřejnit v těchto kategoriích
+      published: Uveřejněno
+      recently_logged_in: Přihlášeni v poslední době
+      restore_defaults: Obnovit základní nastavení
+      roles: Role
+      sections: Sekce
+      sets: Alba
+      settings: Nastavení
+      show: Zobrazit
+      signup: Registrovat
+      site: Stránka
+      sites: Stránky
+      spam_filters: Spam filtry
+      spam_protection: Ochrana proti spamu
+      subscriptions: Přihlášení k odebírání
+      success: Úspěšně!
+      tags: Tagy
+      templates: Předlohy
+      theme: Vzhled
+      themes: Vzhled
+      topic: Témata
+      topics: Témata
+      tracking: Sledování
+      upload: Uploadovat
+      users: Uživatelé
+      view: Zobrazit
+      website: Domů
+      website_configuration: Nastavení webové stránky
+      wikipages: Stránky
+      admin_account: Administrátorský účet
+    links: 
+      back: Zpět
+      create_one_now: Vytvořit nového.
+      delete: Smazat
+      edit: Upravit
+      view: Zobrazit
+      next: další
+      previous: předcházející
+      login: Přihlásit
+      logout: Odhlásit
+      profile: Profil
+      reorder: Změna pořadí
+      sites_overview: Přehled stránek
+      skip_to_content: Přeskočit na obsah
+      skip_to_navigation: Přeskočit na navigaci
+      superusers_admins: Superuseři + Administrátoři
+      entries_feed: Feed záznamů
+      comments_feed: Feed komentářů
+      comments_feed_title: "{{section}} komentáře"
+    labels:
+      author_name: Jméno
+      author_email: E-Mail
+      body: Tělo
+      filters: Filtry
+      email: E-mail
+      subject: Předmět
+      submit: Odeslat
+    hints:
+      tags: 'Vyplňte jeden nebo více tagů oddělených čárkou nebo mezerou (například: <em>"Web Dev" Tutoriály</em> nebo <em>Web Dev, Tutoriály</em>).'
+      content_translations: Možnost změny jazyku editace. Pokud chcete přidat další překlad, vyberte jazyk z menu na pravé straně.
+      locale: Vyberte jazyk jaký bude použit pro váš článek.
+      filter: 'Jak je váš obsah napsán? Pokud používáte textový editor, použijte přednastavené "Plain HTML". Jinak zvolte váš markup.'
+      meta_keywords: 'Vložte několik slov oddělených čárkou pro popis vašeho obsahu. Meta keywords pomáhají vyhledávačům najít vaši stránku.'
+      meta_description: 'Vložte krátký popis vaši stránky, aby vyhledávače mohli ostatním zobrazit, co zde mohou nalézt.'
+      template: Vložte umístění šablony, která se bude aplikovat na všechny články v této sekci. Pokud si nejste jisti, toto pole nevyplňujte.
+      layout: Vložte umístění layoutu, který se bude aplikovat na všechny články v této sekci. Pokud si nejste jisti, toto pole nevyplňujte.
+      akismet: Akismet je služba provozovaná třetí stranou pro filtrování spamu. Pokud jste ke službě přihlášeni, vložte prosím Váš API key, URL a zaškrtněte použití této služby.
+      defensio: Defensio je služba provozovaná třetí stranou pro filtrování spamu. Pokud jste ke službě přihlášeni, vložte prosím Váš API key, URL a zaškrtněte použití této služby.
+      roles: Vyberte ke kterým částem stránky bude mít uživatel přístup. 
+      categories: "Název nesmí obsahovat 2 nebo 4 číslice!"
+      sets: "Název nesmí obsahovat 2 nebo 4 číslice!"
+    messages: 
+      insufficient_permissions: 
+        title: Nedostatečná oprávnění
+        body: Pokud si myslíte, že by ste měli mít práva k přístupu, kontaktujte prosím administratoratéto stránky, aby Vám změnil práva.
+      not_editable: "Omlouváme se, ale toto se nedá změnit!"
+    resources:
+      links:
+        view: Zobrazit
+        show: Zobrazit
+        new: Nový
+        edit: Upravit
+        delete: Smazat
+        reorder: Změnit pořadí
+        reordering_done: Pořadí změněno
+      confirm_delete: "Jste si jistí?"
+    state:
+      draft: Koncept
+      published: Veřejný
+      hold: Čekající na schválení
+      queued: Ve frontě
+      delivered: Doručeno
+    sites:
+      email_notification_activated: "Aktivovat upozornění e-mailem"
+      title:
+        create: Vytvořit novou stránku
+      hints:
+        host_name: 'Zadejte port, pokud není standartní. Např.: localhost:3000'
+        admin_email: Zobrazeno v e-mailech z Vaší stránky
+        email_notification: "Pokud je aktivní funkce zasílání upozornění přes e-mail, pak pokud se vytvoří nový obsah, nebo se upraví, tak jsou administrátoři stránky informováni. Žádné e-maily se neodesílají, pokud jsou upozornění vypnuta"
+      attributes:
+        name: Jméno
+        host: Host
+      install:
+        success_fully_created: Úspěšně jste vytvořili vaši stránku. Blahopřejeme!
+        welcome_to_installation: 'Vítejte v adva-cms. Zbývá méně než minuta do dokončení instalace. Stačí jen vyplnit následující informace.'
+        can_always_change_settings: Nastavení můžete kdykoliv změnit
+        section_default: Home
+      no_sites: Zatím nemáte vytvořené žádné stránky
+      no_users: Stránka nemá žádného uživatele.
+      links:
+        index: Stránky
+        new: Nový
+        edit: Nastavení
+        show: Zobrazit
+        delete: Smazat
+        create_site_and_account: "Vytvořit stránku a účet \xC2\xBB"
+        manage_new: Spravovat Vaši novou stránku 
+      flash:
+        destroy:
+          success: Stránka byla smazána.
+          failure: Stránka nemohla být smazána
+        install:
+          error_already_complete: Instalace je již u konce. Prosím přihlašte se jako administrátor.
+          success: Gratulujeme! Úspěšně jste nastavili Vaši stránku.
+          failure: "Následující model nemohl být vytvořen: {{models}}."
+        create:
+          success: Stránka byla vytvořena.
+          failure: Stránka nemohla být vytvořena
+        update:
+          success: Stránka byla upravena.
+          failure: Stránka nemohla být upravena
+      label:
+        name: Jméno
+        title: Titulek
+        timezone: Časové pásmo
+        admin_email: E-mail administratora
+        subtitle: Podtitulek
+        host: Host name
+        locale: Jazyk
+      confirm_delete: Opravdu chcete tuto stránku smazat?
+    sections:
+      no_sections_in_site: 'Nejsou dostupné žádné sekce.'
+      hints:
+        translation: Možnost změny jazyku editace. Pokud chcete přidat další překlad, vyberte jazyk z menu na pravé straně.
+        content_filter: Jaký markup má být použit při zobrazování článků. Výchozí je Plain HTML.
+        sections: "Zde jsou zobrazeny všechny sekce na Vaši stránce. Ta sekce, která je uvedena jako první, je zároveň nastavana jako domovská stránka."
+        reorder: 'Můžete využít možnosti Změny pořadí, aby jste mohli změnit vaši domovskou stránku a změnit pořadí stránek. Pokud chcete měnit pořadí stránek, můžete stránku přesunout do prava (uchopit a potáhnout), pak se tato stránka nastaví jako potomek stránky nad ní. Práci ukončíte kliknutím na tlačítko "Změna pořadí". Tato možnost je přístupná jen pokud máte vytvořeny dvě a více stránek.'
+        parent_setting: 'Vybráním rodiče vaší stránce sváže vaši stránku s rodičem. Zanechte prázdné, pokud chcete tuto stránku vytvořit jako hlavní'
+        parent_setting_for_edit: 'Můžete požít tlačítko "Změna pořadí" na seznamu Sekcí, pro seskupení a změnu pořadí vašich stránek. Další návod naleznete na seznamu Sekcí.'
+        permalink: "Prosím nepoužívejte speciální znaky např:$%&!"
+        publish: "Označte tuto možnost, pokud chcete tutosekci uveřejnit."
+      titles:
+        page_settings: Nastavení stránky
+        blog_settings: Nastavení blogu
+        forum_settings: Nastavení fóra
+        create: Vytvořit novou sekci
+        behaviour: Chování
+        publish: Způsoby uveřejnění
+      links:
+        translations: "dostupné v jazycích: {{locales}}"
+        save_and_create_new: Vytvořit a uložit novou sekci
+        index: Sekce
+        new: Vytvořit novou sekci
+        show: Zobrazit
+        edit: Vlastnosti
+        delete: Smazat
+        add_section: Přidat sekci
+        reorder: Změnit pořadí
+        create: Vytvořit novou sekci
+      settings:
+        single_article_mode: Jeden článek na stránku
+        multi_article_mode: Více článků na stránku
+      confirm_delete: Opravdu chcete smazat tuto seknci?
+      flash:
+        destroy:
+          success: Sekce byla smazána.
+          failure: Sekce nemohla být smazána.
+        create:
+          success: Sekce byla vytvořena.
+          failure: Sekce nemohla být vytvořena.
+        update:
+          success: Sekce byla upravena.
+          failure: Sekce nemohla být upravena.
+      total_with_count:
+        one: "Celkem: {{count}} sekce"
+        few: "Celkem: {{count}} sekce"
+        other: "Celkem: {{count}} sekcí"
+    blog:
+      titles:
+        date: "z {{date}}"
+        about: "o {{category}}"
+        tags: "tagů {{tags}}"
+        articles: "Články {{articles}}"
+        show_articles: "Zobrazit články:"
+        manage: Spravovat
+        actions: Akce
+      links:
+        articles: Články
+        categories: Kategorie
+        settings: Nastavení
+        create_article: Vytvořit nový článek
+        create_article_now: Vytvořit nový článek hned 
+        more: Číst dál
+      options:
+        filter:
+          category: v kategorii
+          tags: tagged jako
+          title: Název obsahuje
+          body: Tělo obsahuje
+          draft: koncept
+      tabs:
+        article: Článek
+        comments: Komentáře
+        published: Veřejný
+        author: Autor
+      feeds:
+        category: Kategorie {{category}}
+        tags:
+          one: "Tag: {{tags}}"
+          few: "Tagy: {{tags}}"
+          other: "Tagů: {{tags}}"
+      no_articles: "V {{section}} nejsou žádné články."
+      no_filtered_articles: "Žádné články neodpovídají zadaným kritériím."
+      attribution: "Od: {{author}}"
+    categories:
+      columns:
+        title: Název
+        category: Kategorie
+      attributes:
+        name: jméno
+      hints:
+        reorder: 'Můžete využít možnosti Změny pořadí, aby jste mohli změnit pořadí zobrazení kategorií. Pokud chcete měnit pořadí kategorií, můžete kategorii přesunout do prava (uchopit a potáhnout), pak se tato kategorie nastaví jako potomek kategorie nad ní. Práci ukončíte kliknutím na tlačítko "Změna pořadí". Tato možnost je přístupná jen pokud máte vytvořeny dvě a více kategorií.'
+        parent_setting: 'Vybráním rodiče se vytvoří jeho podkategorie. Pokud chcete vytvořit hlavní kategorii, pak nechcte prázdné.'
+        parent_setting_for_edit: 'Můžete požít tlačítko "Změna pořadí" na seznamu Kategorií, pro seskupení a změnu pořadí vašich kategorií. Další návod naleznete na seznamu kategorií.'
+        permalink: "Prosím nepoužívejte speciální znaky např:$%&!"
+      titles:
+        edit: Upravit kategorii
+        new: Vytvořit novou
+      no_categories_in_section: V {{section}} nejsou žádné kategorie.
+      total_with_count:
+        one: "Celkem: {{count}} kategorie"
+        few: "Celkem: {{count}} kategorie"
+        other: "Celkem: {{count}} kategorií"
+      links:
+        index: Kategorie
+        new: Nová
+        edit: Upravit
+        delete: Smazat
+        reorder: Změnit pořadí kategorií
+        create_now: Vytvořit novou 
+      flash:
+        destroy:
+          success: Kategorie byla smazána.
+          failure: Kategorie nemohla být smazána.
+        create:
+          success: Kategorie byla vytvořena.
+          failure: Kategorie nemohla být vytvořena.
+        update:
+          success: Kategorie byla upravena.
+          failure: Kategorie nemohla být upravena.
+      confirm_delete: Opravdu chcete smazat tuto kategorii?
+      all: "&mdash; Všechny kategorie &mdash;"
+    contents:
+      not_published: ne
+    articles:      
+      optimistic_lock: 
+        exception: 
+          missing_timestamp: 'Článek nemohl být upraven: chybí časový údaj. Prosím ujistěte se, že váš formulář obsahuje skryté pole "updated_at".'
+      count:
+        one: "{{count}} článek"
+        few: "{{count}} články"
+        other: "{{count}} článků"
+      published_count: "{{count}} uveřejněných"
+      draft_count:
+        one: "{{count}} koncept"
+        few: "{{count}} koncepty"
+        other: "{{count}} konceptů"
+      columns:
+        article: Článek
+        comments: Komentáře
+        published: Veřejný
+        author: Autor
+      translation_links: "dostupné překlady: {{locales}}"
+      locale_for_record: "Překlady článku: "
+      write_article: Napište Váš článek
+      question_save_as_draft: Uložit do konceptů?
+      confirm_save_as_draft: Ano, uložit tento článek do konceptů
+      titles:
+        edit: Upravit článek
+        new: Nový článek
+      total_with_count:
+        one: "Celkem: {{count}} článek"
+        few: "Celkem: {{count}} články"
+        other: "Celkem: {{count}} článků"
+      links:
+        index: Články
+        new: Nový
+        edit: Upravit
+        show: Zobrazit
+        delete: Smazat
+        preview: Náhled
+        create_now: Vytvořit nový
+      excerpt_add: Přidat výňatek
+      no_articles: "V {{section}} nejsou žádné články."
+      no_filtered_articles: Žádné články neodpovídají zadaným podmínkám.
+      publish_on_date: Zveřejnit
+      flash:
+        optimistic_lock: 
+          failure: Článek byl upraven někým jiným. Prosím odstraňte konflikty.
+        destroy:
+          success: Článek byl smazán.
+          failure: Článek nemohl být smazán.
+        rollback:
+          success: Článek byl upraven zpět na verzi {{version}}
+          failure: Článek nemohl být upraven zpět na verzi {{version}}
+        create:
+          success: Článek byl vytvořen.
+          failure: Článek nemohl být vytvořen.
+        update:
+          success: Článek byl upraven.
+          failure: Článek nemohl být upraven.
+      confirm_delete: opravdu chcete smazat tento článek?
+      attributes:
+        excerpt: Výňatek
+    cached_pages:
+      links:
+        index: Cache
+        clear_all: Smazat vše
+      columns:
+        url: URL
+        cached_at: Cached
+      no_entries: Momentálně nejsou žádné stránky uloženy v cache paměti.
+      confirmation:
+        cleared: Tato stránka byla odstraněna z cache paměti.
+        cleared_short: Odstraněno
+      filter:
+        show_cached_pages: Zobrazte stránky uložené v cache paměti
+      total_with_count:
+        one: "Celkem: {{count}} stránka v cache"
+        few: "Celkem: {{count}} stránky v cache"
+        other: "Celkem: {{count}} stránek v cache"
+      no_entries_matching_criteria: Žádné stránky uložené v cache paměti neodpovídají zadaným podmínkám.
+      flash:
+        clear:
+          success: Cache pamět byla vyčištěna.
+    comments:
+      said_time_ago: před {{time}}
+      flash:
+        thank_you: Děkujeme vám za komentář!
+        create:
+          success: Komentář byl vytvořen.
+          failure: Komentář nemohl být vytvořen.
+        update:
+          success: Komentář byl upraven.
+          failure: Komentář nemohl být upraven.
+        destroy:
+          success: Komentář byl smazán.
+          failure: Komentář nemohl být smazán.
+      links:
+        delete: Smazat
+        edit: Upravit
+        approve: Schválit
+        view: Zobrazit
+        unapprove: Zamítnout
+      titles:
+        comments_awaiting_approval: Přízpěvky čekající na schválení
+        save_comment: Uložit přízpěvek
+        comment_on_by: "Komentováno '{{on}}' , {{by}}"
+        add_reply: Přidat komentář
+        comment_number: "Komentář #{{number}}"
+        edit: Upravit přízpěvek
+        comments_on: Komentáře {{location}}
+        submit_comment: Přidat komentář
+        your_reply: Vaše odpověď
+        comment_with_count:
+          one: 1 komentář
+          few: "{{count}} komentáře"
+          other: "{{count}} komentářů"
+      filter:
+        show_comments: Zobrazit komentáře
+        options:
+          all: Všechny
+          body: Tělo obsahuje
+          author_name: Autor
+          author_email: E-mail autora
+          author_url: Webová stránka autora je
+          state: Whose state is
+        go: Jdi
+      state:
+        options:
+          approved: Schválený
+          unapproved: Zamítnutý
+      options:
+        expiration: 
+          not_allowed: Nejsou povoleny
+          never_expire: Trvalé
+          x_hours_after_publishing:
+            one: Vyprší za jednu hodinu od uveřejnění
+            few: Vyprší za {{count}} hodiny od uveřejnění
+            other: Vyprší za {{count}} hodin od uveřejnění
+          x_weeks_after_publishing:
+            one: Vyprší za jeden týden od uveřejnění
+            few: Vyprší za {{count}} týdny od uveřejnění
+            other: Vyprší za {{count}} týdnů od uveřejnění
+          x_months_after_publishing:
+            one: Vyprší za jeden měsíc od uveřejnění
+            few: Vyprší za {{count}} měsíce od uveřejnění
+            other: Vyprší za {{count}} měsíců od uveřejnění
+      labels:
+        "on": "on"
+        comments: Komentáře
+        approved: Schválený
+      hints:
+        comments_filter: Jaký markup má být použit při zobrazování komentářů. Výchozí je Plain HTML.
+      confirm_delete: Opravdu chcete smazat tento komentář?
+      info:
+        under_review: Tento komentář čeká na schválení.
+      messages:
+        not_allowed: "Komentáře jsou zakázány."
+      no_comments: neexistují žádné komentáře.
+      no_filtered_comments: Žádné komentáře neodpovídají zadanému dotazu.
+    activity:
+      from_to: "{{from}} - {{to}}"
+      types:
+        article: Článek
+      action_names:
+        created: vytvořen
+        published: veřejný
+        revised: zkontrolovaný
+      titles:
+        today: Dnes {{date}}
+        yesterday: Včera {{date}}
+        past: Před {{date}}
+      none: Žádné změny
+      notifier:
+        new: Nový {{activity}} přidán
+      view:
+        new: "{{name}} <{{email}}> právě přidal nový {{activity}} na {{site}} v sekci {{section}}."
+      comment: Komentář {{actions}}
+      topic: Téma {{actions}}  
+      actions: "{{type}} {{actions}} v {{activity}}."
+    signup:
+      notifications:
+        email_verification:
+          subject: Ověření e-mailu
+          body: |
+            Vážený uživateli {{name}},
+
+            Zaregistrovali jste se na našich stránkách. Registrace vyžaduje, aby
+            všichni noví uživatelé potvrtdil svou e-mailovou adresu.
+            Pro dokončení registrace klikněte na následující odkaz. ten aktivuje vaše 
+            uživatelské jméno a budu te se moci přihlásit.
+
+            {{link}}
+      flash:
+        destroy:
+          success: Uživatelský účet {{name}} byl vytvořen.
+        create:
+          failure: vaše registtrace nemohla být vytvořena.
+        verify:
+          success: Úspěšně jste potvrdili vaši e-mailovou adresu.
+          failure: E-mailová adresa již byla ověřena.
+    passwords:
+      attributes:
+        token: Potvrzovací kód
+      links:
+        reset: Reset hesla
+      info:
+        please_enter_email_to_reset_password: 'Prosím zadejte vaši e-mailovou adresu. Bude vám zaslán e-mail s odkazem na reset vašeho hesla'
+        please_enter_new_password: Zadejte vaše nové heslo.
+        please_enter_new_password_and_token: 'Prosím zadejte potvrzovací kód, který vám byl zaslán e-mailem a vaše nové heslo.'
+      titles:
+        new: Zapomenuté heslo
+        edit: Změnit heslo
+      notifications:
+        password_updated:
+          subject: Heslo změněno
+          body: |
+            Vážený uživateli {{name}},
+
+            vaše heslo bylo úspěšně změněno
+        reset_password:
+          subject: Zapomenuté heslo
+          body: |
+            Vážený uživateli {{name}},
+
+            Někdo (doufáme, že vy) naznačil, že si nemůže vzpomenout na své heslo.
+            Následující odkaz Vám umožní vytvořit si heslo nové.
+
+            {{link}}
+            
+            Nebo pokud máte stále otevřené okno prohlížeče, můžete použít následující 
+            potvrzovací kód spolu s Vaším novým heslem:
+            
+            {{token}}
+            
+            Prosím změnte si heslo co nejdříve, tento odkaz je časově omezen (kvůli 
+            ochraně Vašeho uživatelského účtu).
+
+            Pokud jste si změnu hesla nevyžádali, někdo musel zadat vaše uživatelské 
+            jméno v sekci "Zapomenuté heslo" na našich stránkách. Váš uživatelský účet je 
+            stále v bezpečí pokud jste jediný, komu byla tato zpráva odeslána.
+            Pokud vám byla tato zpráva zaslána omylem, pak ji jen smažte a na Vašem 
+            uživatelském účtě nedojde k žádným změnám.
+      flash:
+        new:
+          email_sent: Bylo vám odesláno upozornění. Zkontrolujte si prosím váš e-mail.
+          no_such_user: Podle zadané e-mailové adresy jsme nemohli nalézt žádného uživatele.
+        create:
+          notification: 'Pokud je v našem systému zadaná e-mailová adresa uložena, pak vám byl právě zaslán e-mail s informacemi, jak obnovit vaše heslo' 
+        update:
+          success: Vaše heslo bylo úspěšně změněno.
+          failure: vaše heslo nemohlo být změněno.
+    session:
+      flash:
+        destroy:
+          success: Úspěšně odhlášen.
+        create:
+          success: Úspěšně přihlášen.
+          failure: Zadali jste špatné heslo nebo e-maiovou adresu. Zkuste to prosím znovu.
+      labels:
+        remember_me: Pamatovat si mě na tomto počítači
+    users: 
+      attributes: 
+        new_password: Nové heslo
+        password: Heslo
+        email: E-Mail
+      links: 
+        new: Přidat nového uživatele
+        create_user: Vytvořit uživatele
+        edit: Upravit
+        delete: Smazat
+      actions:
+        delete_user: Smazat uživatele
+        create_new: Vytvořit nového uživatele
+      titles:
+        new: Nový uživatel
+        edit: Upravit uživatele
+        register: Zaregistrovat uživatelský účet
+        signup: Sign up
+        your_profile: Váš profil
+      flash:
+        not_member_of_this_site: Uživatel, kterého hledáte není členem této stránky
+        destroy:
+          success: Uživatelský účet byl smazán.
+          failure: Uživatelský účet nemohl být smazán.
+        create:
+          success: Uživatelský účet byl vytvořen.
+          failure: Uživatelský účet nemohl být vytvořen.
+        update:
+          success: Uživatelský účet byl upraven.
+          failure: Uživatelský účet nemohl být upraven.
+      labels:
+        updated_at: Poslední přihlášení
+        url: Domovská stránka
+        created_at: Vytvořen
+        email: E-mail
+      info: 
+        showed_up: "Přihlášen před: {{time_ago}}"
+        logged_in_as: "Přihlášen: {{name}}"
+      confirm_delete: Opravdu chcete smazat tento uživatelský účet?
+    roles:
+      hints:
+        superuser: "<strong>Superuser</strong> může dělat cokoliv. Jen superuser může vytvářet nové stránky a k nim přiřazovat uživatele."
+        admin: "<strong>Administrator</strong> stránky '{{site}}' může dělat cokoliv na této stránce."
+        designer: "<strong>Designer</strong> stránky '{{site}}' může dělat vše co moderátor. A navíc může spravovat nastvení vzhledu stránky"
+        moderator: "<strong>Moderátor</strong> stránky '{{site}}' může dělat vše co autor. A navíc má práva spravovat fóra (sekce a témata), stranky wiki a newslettery"
+        author: "<strong>Autor</strong> stránky '{{site}}' může spravovat veškerý obsah stránek, např: články. Autor nemůže měnit vzhled, komentáře, fóra a newslettery. Může vytvářet položky v existujících newsletterech."
+        user: "<strong>Live user</strong> stránky '{{site}}' nemá v žádném případě přístup do administrátorského rozhraní. Live user se může přihlásit na vaši stránku a používat všechny dostupné funkce jako např: psaní komentářů."
+      labels:
+        admin_for: "Administrator pro {{context}}"
+        superuser: Superuser
+        moderator_for: "Moderator pro {{context}}"
+        author_for: "Autor pro {{context}}"
+        designer_for: "Designer pro {{context}}"
+        user_for: "Live user pro {{context}}"
+      errors: 
+        messages:
+          role_required: "Pro tuto akci musíte být přihlášený jako jeden z následujících uživatelů: {{roles}}"
+          not_admin: Pro tuto akci musíte být přihlášen jako administrátor.
+          not_user: Pro tuto akci musíte být přihlášený.
+          not_superuser: Pro tuto akci musíte být přihlášen jako superuser.
+          not_author: Pro tuto akci musíte být přihlášen jako autor toho objektu.
+          not_moderator: Pro tuto akci musíte být přihlášen jako moderátor.
+
+    assets:
+      links:
+        new: Nová příloha
+      flash:
+        upload:
+          failure: Nahrání přílohy selhalo.
+        update:
+          success: Příloha byla upravena.
+          failure: Úprava přílohy se nezdařila.
+        delete:
+          success: "Smazáno {{filename}}"
+          failure: Úprava přílohy se nezdařila.
+        destroy:
+          success: "{{asset}} oddělen od {{content}}."
+        create:
+          first_success: "'{{asset}}' byl nahrán."
+          success: 
+            one: "Jedna příloha byla nahrána."
+            few: "{{count}} přílohy byly nahrány."
+            other: "{{count}} příloh bylo nahráno."
+        add:
+          success: "{{asset}} přidaný do košíku."
+        clear:
+          success: Košík příloh byl vyčištěn.
+      validation:
+        duplicate: Soubor již existuje!
+      tab:
+        attached:
+          title: Přiložené přílohy
+          name: Přílohy
+        latest:
+          title: Poslední příloha nahrána
+          name: Nejnovější
+        bucket:
+          title: Váš košík příloh
+          name: Košík
+        search:
+          title: Hledat v přílohách
+          name: Hledat
+        upload:
+          title: Nahrát novou přílohu
+          name: Nahrát
+        audio: Audio
+        movies: Filmy
+        pictures: Obrázky
+        others: Ostatní
+        tags: Tagy
+        title: Název
+      new: Nová příloha
+      add_to_bucket: Přidat do košíku
+      no_files: Zatím nemáte žádné soubory.
+      no_files_filtered: Žádné soubory nesplňují zadané podmínky.
+      upload: Nahrát
+      enter_tags: 'Vyplňte jeden nebo více tagů oddělených čárkou nebo mezerou (například: <em>"Web Dev" Tutoriály</em> nebo <em>Web Dev, Tutoriály</em>).'
+      save: Uložit přílohu
+      your_bucket: Váš košík
+      add_files: "Přdejte soubory do košíku, aby jste si je dočasně přenášeli sebou, kdyz vytváříte nebo kontrolujete články."
+      upload_summary:
+        one: 'Nahráli jste <strong>jednu přílohu </strong> o velikosti <strong>{{size}}</strong>.'
+        few: 'Nahráli jste <strong>{{count}} přílohy </strong> o velikosti <strong>{{size}}</strong>.'
+        other: 'Nahráli jste <strong>{{count}} příloh </strong> o velikosti <strong>{{size}}</strong>.'
+      stats: Statistiky
+      labels:
+        upload:
+          files: Vyberte soubor
+          title: Název
+          tags: Tagy
+      delete: Odstranit
+      tag_all: Použij tagy na všechny
+      add_file: Přidat další soubor
+      select_file: Vybrat soubor
+      edit_asset: Upravit přílohu
+      delete_asset: Smazat přílohu
+      clear_bucket: Vyčistit
+      upload: Nahrát přílohu
+      confirm_delete: Opravdu chcete tuto přílohu smazat?
+      search_by_tag_or_title: Hledat podle tagů nebo názvu
+      empty_bucket: Váš košík je prázdný.
+    themes:
+      no_themes_available: Zatím jste nevytvořili žádnou šablonu vzhledu.
+      hints:
+        asset_caching: "Při cachování vašich stylesheetů nebo javascriptů použijte buď složku /cashe/ nebo název souboru začínající na cache_ . Všechny soubory ze složky cache/ a začínající na cache_ jsou rekurzivně mazány, ostatní jsou ponechány beze změn."
+      lables:
+        zip_file: Komprimovaný soubor
+      titles:
+        new: Vytvořit novou šablonu vzhledu
+        edit: "Upravit vzhled: {{theme}}"
+        valid_file_types: Povolené typy souborů
+        import: Importovat šablonu vzhledu
+        edit_file: Upravit soubor se šablonou vzhledu
+        theme_id: ID vzhledu
+      links:
+        index: Vzhled
+        add_another_file: Přidat další soubor
+        new: Nový
+        edit: Upravit
+        activate: Aktivovat
+        deactivate: Deaktivovat
+        delete: Smazat
+        create_one_now: Vytvořit novou.
+        delete_file: Smazat soubor obsahující šablonu vzhledu
+        uninstall: Odinstalovat
+        download: Stáhnout
+        upload_file: Nahrát nový soubor
+        import: Importovat
+        create_file: Vytvořit nový soubor
+      upload_template_or_asset: Nahrát šablonu nebo přílohu.
+      labels:
+        asssets: Přílohy
+        templates: Šablony
+        filename: Jméno souboru
+      confirm_activate: Opravdu chcete aktivovat tuto šablonu vzhledu?
+      confirm_deactivate: Opravdu chcete deaktivovat tuto šablonu vzhledu? 
+      confirm_delete: Opravdu chcete smazat tuto šablonu vzhledu?
+      confirm_uninstall: Opravdu chcete odinstalovat tuto šablonu vzhledu? (Nebude možné ji obnovit.)
+      flash:
+        destroy:
+          success: Šablona vzhledu byla smazána.
+          failure: Šablona vzhledu nemohla být smazána.
+        create:
+          success: Šablona vzhledu byla vytvořena.
+          failure: "Šablona vzhledu nemohla být vytvořena: {{errors}}."
+        update:
+          success: Šablona vzhledu byla upravena.
+          failure: "Šablona vzhledu nemohla být upravena: {{errors}}."
+        import:
+          success: Šablona vzhledu byla importována.
+          error_filename_blank: Soubor šablony nemůže být prázdný.
+          failure: Soubor není platným souborem vzhledu.
+
+    # yuk!
+    theme_templates:
+      columns:
+        path: Cesta
+    theme_stylesheets:
+      columns:
+        path: Cesta
+    theme_javascripts:
+      columns:
+        path: Cesta
+    theme_images:
+      columns:
+        path: Cesta
+    theme_others:
+      columns:
+        path: Cesta
+
+    theme_files:
+      no_files: Momentálně nemáte přístupné žádné soubory.
+      remove_file: Odstranit soubor
+      add_file: Přidat soubor
+      columns:
+        path: Cesta
+        type: Typ
+      links:
+        create_one_now: Vytvořit nový.
+        new_file: Nový soubor
+        new: Nový
+        edit: Upravit
+        delete: Smazat
+        upload: Nahrát
+      confirm_delete: Opravdu chcete tento soubor smazat?
+      types:
+        template: Šablona
+        templates: Šablony
+        image: Obrázek
+        images: Obrázky
+        javascript: Javascript
+        javascripts: Javascripty
+        stylesheet: Stylesheet
+        stylesheets: Stylesheety
+        preview: Náhled
+        others: Ostatní
+      flash:
+        destroy:
+          success: Soubor byl smazán.
+          failure: Soubor nemohl být smazán.
+        create:
+          success: Soubor byl vytvořen.
+          failure: Soubor nemohl být vytvořen.
+        update:
+          success: Soubor byl upraven.
+          failure: Soubor nemohl být upraven.
+      titles:
+        upload:Nahrát soubor se šablonou vzhledu
+        create: Vytvořit soubor se šablonou vzhledu
+    plugins:
+      no_plugins_installed: Žádný plugin není nainstalován.
+      attributes:
+        name: Jméno
+        configurable: Konfigurovatelný
+        author: Autor
+        version: Verze
+        homepage: Domovská stránka
+      flash:
+        destroy:
+          success: Bylo obnoveno základní nastavení.
+          failure: Sekce nemohla být smazána.
+        update:
+          success: Nastavení bylo změněno.
+          failure: Sekce nemohla být vytvořena.
+      no_config_options_available: Tento zásuvný modul nemá žádné možnosti nastavení.
+    settings:
+      filter_options:
+        plain_html: Plain HTML
+    forums:
+      info:
+        total_contents: Na fóru je dohromady {{boards}} sekcí, {{topics}} témat a {{posts}} postů.
+      settings:
+        post_content_filter: 'Pro každý nový přispěvek na foru bude použito toto nastavení'
+    boards:
+      columns:
+        title: Název
+        description: Popis
+        topics_count: Počet témat
+        posts_count: Počet přízpěvků
+      boards_count:
+        one: "{{count}} sekce"
+        few: "{{count}} sekce"
+        other: "{{count}} sekce"
+      topics_count:
+        one: "{{count}} téma"
+        few: "{{count}} témata"
+        other: "{{count}} témat"
+      posts_count:
+        one: "{{count}} post"
+        few: "{{count}} posty"
+        other: "{{count}} postů"
+      comments_count:
+        one: "{{count}} komentář"
+        few: "{{count}} komentáře"
+        other: "{{count}} komentářů"
+      info:
+        no_boards_in_forum: V {{forum}} nejsou zatím žádné sekce.
+        move_topics_to_board: Stávající témata budou automaticky přesunuty do první vytvořené sekce ihned po jejím vytvoření
+      titles:
+        new: Nová sekce
+        edit: Editovat sekci
+      labels:
+        board: Sekce
+        move_to_board: Přesunout do sekce
+      links:
+        index: Sekce
+        new: Nová sekce
+        boards: Sekce
+        forum: Fórum
+        settings: Nastavení
+        reorder: Změnit pořadí sekcí
+        create_now: Vytvořit novou.
+        create: Vytvořit novou
+      flash:
+        no_next_board: Již jste na poslední sekci. 
+        destroy:
+          success: Sekce byla smazána.
+          failure: Sekce nemohla být smazána.
+        create:
+          success: Sekce byla vytvořena.
+          failure: Sekce nemohla být vytvořena.
+        update:
+          success: Sekce byla upravena.
+          failure: Sekce nemohla být upravena.
+        no_previous_board: Již jste na první sekci.
+      confirm_delete: Opravdu chcete smazat tuto sekci? Budou smazána i všechna témata která tato sekce obsahuje.
+      confirm_delete_on_last: Opravdu chcete smazat tuto sekci? Vaše témata nebudou smazána.
+    topics:
+      columns:
+        board: Sekce
+        title: Název
+        author: Autor
+        last_updated: Poslední změna
+        posts: Přízpěvky
+      info:
+        no_topics_in_forum: Toto fórum nemá zatím žádné téma.
+        no_topics_in_board: v této sekci nejsou žádná témata.
+      titles:
+        new: Nové téma
+        edit: Upravit téma
+        post_topic: Zveřejnit téma
+        latest_post: Poslední přízpěvek
+        post_count:
+          one: "{{count}} přízpěvek"
+          few: "{{count}} přízpěvky"
+          other: "{{count}} přízpěvků"
+      states:
+        sticky: Důležité
+        locked: Zamknout
+      links:
+        post_new: Vytvořit nové
+        post_now: Post one now
+        new_topic: Nové téma
+        new: Vytvořit nové téma
+      flash:
+        destroy:
+          success: Téma bylo smazáno.
+          failure: Téma nemohlo být smazáno.
+        create:
+          success: Téma bylo vytvořeno.
+          failure: Téma nemohlo být vytvořeno.
+        update:
+          success: Téma bylo upraveno.
+          failure: Téma nemohlo být upraveno.
+        no_next_topic: Již jste na posledním tématu.
+        no_previous_topic: Již jste na prvním tématu.
+      confirm_delete: Opravdu chcete smazat toto téma?
+    posts:
+      titles:
+        reply: Odeslat odpověď
+        edit: Upravit Váš přízpěvek
+        save_post: Uložit přízpěvek
+        submit_post: Submit post
+      flash:
+        destroy:
+          success: Přizpěvek byl smazán.
+        create:
+          success: Přízpěvek byl uložen.
+          failure: Přízpěvek nemohl být uložen.
+        update:
+          success: Přízpěvek byl upraven.
+          failure: Přízpěvek nemohl být upraven.
+      confirm_delete: Opravdu chcete tento přízpěvek smazat?
+    tracking:
+      enable_tracking: Zapnout sledování Google Analytics
+      tracking_campaign: Kampaň
+      tracking_source: Zdroj
+      hints:
+        tracking_code: 'Pro aktivaci Google Analytics zadejte Google Analytics Tracking Code (UA-xxxxxxx-x). Pokud nic nevyplníte, funkce Google Analytics se deaktivuje'
+        no_tracking_code: 'Pokud chcete použít Google Analytics pro sledování vašich záležitostí, aktivujte ji vyplněním vašeho Google Analytics Tracking Code na stránce s vaším nastavením'
+        glossary: "Nebylo specifikováno, co zde použít. Jděte na {{link}} pro další informace."
+        Not sure what to use here? Check {{link}} for further information.
+        glossary_name: nápověda Google Analytics
+    spam:
+      hints:
+        filters: Při přidání komentáře je zkontrolován následujícími spamovými filtry. 
+      options:
+        default_ham_none: Automaticky se neschválí žádný komentář.
+        default_ham_all: Všechny nové komentáře se automaticky schválí.
+        default_ham_authenticated: Automaticky se schválí komentáře jen registrovaných uživatelů.
+      labels:
+        enable: "Zapnout {{name}} filtr"
+        settings: Vlastnosti
+        api_key: API Key
+        site_url: URL stránky
+    info:
+      greeting_logged_in: Uživatel <span>user</span>, byl úspěšně přihlášen.
+    footer:
+      site_powered_by: "Site powered by {{link}}."
+      theme_inspired_by: Theme inspired by depo.
+    flash:
+      authentication_required_role: "Musíte být přihlášen jako {{role}}, aby jste mohl spravovat tuto stránku."
+      no_permission_for_admin_area_of_site: "Nemáte dostatečná oprávnění na správu této stránky. Prosím, kontaktujte systémového administrátora, nebo se přihlašte jako jiný uživatel."
+      no_permission_for_admin_area_of_account: "Nemáte dostatečná oprávnění na správu tohoto uživatelského účtu. Prosím, kontaktujte systémového administrátora, nebo se přihlašte jako jiný uživatel."      
+      login_to_access_admin_area_of_site: "Prosím, pro správu této stránky je třeba se přihlásit." 
+      login_to_access_admin_area_of_account: "Prosím, pro správu tohoto uživatelského účtu je třeba se přihlásit."
+    sidebar:
+      titles:
+        tags: Tagy
+        topics: Témata
+    subscription:
+      no_subscriptions: Nění vytvořen žádný odběratel.
+      confirm_delete: Opravdu se chcete odhlásit?
+      flash:
+        destroy_success: Úspěšně odhlášen.
+      link:
+        index: Přihlášení k odebírání
+        new: Přidat nového odběratele
+        destroy: Odhlásit
+      label:
+        user: Uživatelé
+        subscriber: Odběratel
+        email: E-mail
+        time: Čas přihlášení
+        subscriptions: Přihlášení k odebírání
+    locations:
+      attributes:
+        title: Umístění
+        country: Země
+        postcode: PSČ
+        town: Město
+        address: Ulice
+        description: Popis
+    contact_mails:
+      no_mails: Zatím nemáte vyplněn kontaktní e-mail.
+      delivered: Váš e-mail byl doručen!
+      columns:
+        subject: Předmět
+        created_at: Vytvořen
+      flash:
+        record_not_found: Požadovaný kontaktní e-mail nebyl nalezen!
+        destroy:
+          success: Kontaktní e-mail byl smazán.
+        create:
+          success: Kontaktní e-mail byl vytvořen.
+          failure: Kontaktní e-mail nemohl být vztvořen.
+      confirm_delete: Opravdu chcete smazat tuto e-mailovou adresu?
+          
+    # have cells translations here for the moment
+    cells:
+      album:
+        name: Fotoalbum
+        states:
+          single:
+            name: Fotoalbum
+            description: Zobrazit fotoalbum
+            form:
+              section: Sekce
+      sections:
+        name: Sekce
+        states:
+          recent_articles:
+            name: Poslední články
+            description: Zobraz zadaný počet článků z této sekce
+            form:
+              section: Sekce
+              count: Počet článků
+      blog:
+        name: Blog
+        states:
+          recent_articles:
+            name: Poslední články
+            description: Zobraz zadaný počet článků z tohoto blogu
+            form:
+              section: Sekce
+              count: Počet článků
+      user:
+        name: Uživatelé
+        states:
+          recent:
+            name: Poslední uživatelé
+            description: Zobraz seznam danáho počtu uživatelů
+            form:
+              count: Počet uživatelů
+

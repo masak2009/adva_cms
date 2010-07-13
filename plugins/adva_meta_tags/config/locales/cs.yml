@@ -1,0 +1,6 @@
+cs:
+  adva:
+    meta_tags:
+      hints:
+        meta_geourl_link: http://geourl.org/
+        meta_geourl: "Pro více informací jdi na : {{meta_geourl_link}}"

@@ -21,11 +21,15 @@ module Globalize
 
       protected
         def default_pluralizer
-          pluralizers[:en]
+          pluralizers[:cs]
         end
 
         def pluralizers
-          @pluralizers ||= { :en => lambda{|n| n == 1 ? :one : :other } }
+          if I18n.locale == 'en'
+            @pluralizers = { :en => lambda{|n| n == 1 ? :one : :other } }
+          else
+            @pluralizers = { :cs => lambda{|n| n == 1 ? :one : (2..4).include?(n) ? :few : :other } }
+          end
         end
 
         # Overwrite this method to return something other than a String

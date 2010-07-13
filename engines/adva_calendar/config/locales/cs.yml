@@ -1,0 +1,108 @@
+cs:
+  adva:
+    calendar_events:
+      links:
+        index: Události
+        new: Nová
+        delete: Smazat
+      columns:
+        title: Název
+        starting_at: Začátek v
+        ending_at: Konec v
+        created_by: Vložil
+    calendar:
+      events_count:
+        one: "{{count}} událost"
+        few: "{{count}} události"
+        other: "{{count}} událostí"
+      events_published_count:
+        one: "{{count}} uveřejněn"
+        few: "{{count}} uveřejněny"
+        other: "{{count}} uveřejněných"
+      events_draft_count:
+        one: "{{count}} koncept"
+        few: "{{count}} koncepty"
+        other: "{{count}} konceptů"
+      open_end: Open end
+      confirm_delete: Opravdu chcete smayat tuto událost?
+      publish_on_date: Uveřejnit v
+      starting_at: Začátek v {{start_date}}
+      question_save_as_draft: Uložit do konceptů?
+      confirm_save_as_draft: Ano, uložit tuto událost jako koncept.
+      from_to: '{{start_date}} - {{end_date}}'
+      total_events_with_count:
+        one: "Celkem: {{count}} událost."
+        few: "Celkem: {{count}} události."
+        other: "Celkem: {{count}} událostí."
+      errors:
+        no_events: Žádné události v {{title}} pro toto časové období.
+        no_events_in_calendar: Nemáte naplánované žádné události.
+        no_events_found: Žádné události neodpovídají danému filtru.
+      input_defaults:
+        search: Hledat
+      titles:
+        show_events: Ukaž události
+        search_events: Hledat v událostech
+        edit_event: Upravit událost
+        manage: Spravovat
+        title: Název
+        location: Místo
+        starting_at: Začátek v
+        ending_at: konec v
+        created_by: Vytvořena
+        publish_in_categories: Zveřejnit v těchto kategoriích
+        actions: Akce
+        formats:
+          year_month_day: 'on %e %B %Y'
+          year_month: 'in %B %Y'
+          year: 'in %Y'
+        in_category: v {{title}}
+        tagged: tagged {{tags}}
+        events: Události
+        all_day: Celý den
+      flash:
+        create:
+          success: Byla naplánována nová událost.
+          failure: Nová událost nemohla být uložena do kalendáře.
+        update:
+          success: Událost byla upravena.
+          failure: Událost nemohla být upravena.
+        destroy:
+          success: Událost byla smazána.
+          failure: Událost nemohla být smazána.
+      buttons:
+        go: Jdi
+        search: Hledej
+      options:
+        all_categories: Všechny kategori
+        filter:
+          category: Kategorie
+          tags: Tagy
+          title: Nadpis
+          body: tělo
+          location: Místo
+          upcoming: Následující
+          elapsed: Uplynulá
+          recently_added: Nedávno přidaná
+      links:
+        show: Zobraz
+        new: Naplánovat novou.
+        events: Události
+        all_events: Všechny události
+        categories: Kategorie
+        settings: Nastavení
+        preview: Náhled
+        view: Ukaž
+        delete: Smaž
+      attributes:
+        title: Název
+        start_date: Začátek v
+        end_date: Konec v
+        body: Napište váš popis
+        tags: Tagy
+        host: Organizer
+        location: Místo konání
+        all_day: Celý den
+      calendar:
+        year_month_format: '%B %Y'
+        this_month: Tento měsíc

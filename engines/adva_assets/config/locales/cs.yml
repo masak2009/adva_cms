@@ -1,0 +1,11 @@
+cs:
+  adva:
+    assets:
+      confirm_delete: "Opravdu chcete smazat tuto přílohu?"
+      flash:
+        create:
+          success: "{{asset}} přiřazen k {{content}}."
+        delete:
+          success: "Soubor {{asset}} byl smazán."
+        destroy:
+          success: "{{asset}} odstraněna návaznost na {{content}}."

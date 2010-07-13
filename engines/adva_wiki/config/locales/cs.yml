@@ -1,0 +1,147 @@
+--- 
+cs: 
+  adva: 
+    common: 
+      delete: Smazat
+      by: Od
+      comments: Komentáře
+      title: Název
+      edit: Upravit
+      cancel: Zrušit
+      tag: 
+        one: Tag
+        few: Tagy
+        other: Tagů
+      categories: Kategorie
+      version: Verze
+      Save: Uložit
+      last_updated: Poslední změna
+      settings: Nastavení
+      save: Uložit
+      wikipage: 
+        one: Wikipage
+        few: "{{count}} Wikipages"
+        other: "{{count}} Wikipages"
+      view: Zobrazit
+      updated: Upravit
+    wiki_helper: 
+      wiki_edit_links: 
+        link_to_home: zpět na domovskou stránku
+        link_to_edit: Upravit tuto stránku
+        link_to_delete: smazat tuto stránku
+        confirm_delete: Opravdu chcete tuto stránku smazat?
+      collection_title: 
+        category_title: o {{title}}
+        collect_pages: "Stránky "
+        tags_title: tagged {{title}}
+        all_pages: Všechny stránky
+      wiki_version_links: 
+        link_to_current_revision: vrátit se na poslední revizi
+        link_to_rollback: vrátit obsah na tuto revizi
+        confirm_rollback: Opravdu chcete obsah vrátit na tuto revizi?
+        link_to_previous_revision: zobrazit předchozí revizi
+        link_to_next_revision: zobrazit následující revizi
+    wikipages_helper: 
+      wiki_version_links: 
+        confirm_rollback: Opravdu chcete přepsat obsah na tuto verzi?
+    wikipages:
+      links:
+        index: Stránky
+        show: Zobrazit
+        new: Nový
+        edit: Upravit
+        delete: Smazat
+      columns:
+        wikipage: Stránka
+        version: Verze
+        updated: Upravit
+        author: Autor
+        comments: Komentáře
+    wikipage: 
+      params_author: 
+        exception: 
+          author_and_current_user_not_set: autor a current_user není nastaven
+      view: 
+        confirm_delete: Opravdu chcete smazat tuto wikipage?
+        _options: 
+          publish_categories_header: Zveřejnit v těchto kategoriích
+          link_to_settings: Nastavení
+          link_to_preview: Náhled této wikipage
+          link_to_delete: Smazat tuto wikipage
+          label_for_comments: Komentáře
+          link_to_categories: Kategorie
+          permalink_hint: Používejte jen ASCII znaky a pomlčku místo mezery.
+          wikipage_versions_header: Wikipage verze
+          tags_hint: 'Oddělte tagy mezerami. Uzavřete tag do uvozovek, pokud obsahuje mezeru.'
+          link_to_create: Vytvořit novou wikipage
+          link_to_wikipages: Wikipages
+          optional_settings_header: Další nastavení
+        edit:
+          header: "Upravit: {{title}}"
+        index: 
+          actions_header: Akce
+          link_to_create: Vytvořit novou wikipage
+          link_to_create_one_now: Vytvořit novou
+          manage_header: Spravovat
+          no_wikipages_notice: Ve Vaši wiki nemáte žádné stránky.
+        new: 
+          create_new_header: Vytvořit novou wikipage        
+      flash: 
+        destroy: 
+          success: Wikipage byla smazána.
+          failure: Wikipage nemohla být smazána.
+        rollback: 
+          success: Wikipage byla upravena na verzi {{version}}.
+          failure: Wikipage nemohla být upravena na verzi {{version}}.
+        update_attributes: 
+          success: Wikipage byla upravena.
+          failure: Wikipage nemohla být upravena.
+        create: 
+          succsess: Wikipage byla vytvořena.
+          failure: Wikipage nemohla být vytvořena.
+    wiki:
+      wikipages_count:
+        one: "{{count}} wikipage"
+        few: "{{count}} Wikipages"
+        other: "{{count}} wikipages"
+      optimistic_lock: 
+        exception: 
+          missing_timestamp: 'Wikipage nemohla být upravena: chybí časový údaj. Prosím ujistěte se, že váš formulář obsahuje skryté pole "updated_at".' 
+      set_wikipage: 
+        exception: "could_not_find_wikipage_by_permalink: nemohlo najít wikipage podle permalink '{{id}}'."
+      new_page_title: Nová stránka
+      redirect_to_login: 'Musíte být přihlášeni, pokud chcete upravovat tuto stránku.'
+      flash: 
+        optimistic_lock: 
+          failure: 'Během vaší práce byla wikipage upravena někým jiným. Prosím vyřešte konflikty.' 
+        destroy: 
+          success: Wikipage smazána.
+          failure: Wikipage nemohla být smazána.
+        rollback: 
+          success: Wikipage byla upravena na verzi {{version}}.
+          failure: Wikipage nemohla být upravena na verzi {{version}}.
+        update_attributes: 
+          success: Wikipage byla upravena.
+          failure: Wikipage nemohla být upravena.
+        create: 
+          success: Wikipage byla uložena.
+          failure: Wikipage nemohla být uložena.
+      view: 
+        new: 
+          header: "Vytvoř: {{title}}"
+        edit: 
+          header: "Uprav: {{title}}"
+        _footer: 
+          link_to_entries_feed: Feed záznamů
+          link_to_comment_feed: Feed komentářů
+        _form: 
+          tag_hint: 'Oddělte tagy mezerami. Uzavřete tag do uvozovek, pokud obsahuje mezeru.'
+          label_for_author_email: Váš e-mail
+          label_for_author_name: Vaše jméno
+        index: 
+          wiki_empty_notice: V {{title}} nejsou žádné wikipages.
+          link_to_create_if_empty: Vytvořit novou
+          link_to_create: Vytvořit novou wikipage
+        show: 
+          author: "od: {{author}}"
+          revision_header: "revize: {{version}}"

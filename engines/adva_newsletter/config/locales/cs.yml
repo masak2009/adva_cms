@@ -1,0 +1,124 @@
+cs:
+  adva_newsletter:
+    issue:
+      confirm:
+        remove_body_plain: "Opravdu chcete odebrat very
+        zi plain text ?" 
+      label:
+        body: Html verze
+        body_plain: Plain text verze
+        title: Článek Název/Předmět
+      link:
+        add_body_plain: "Přidat verzi v plain text"
+        remove_body_plain: "Odrstranit plain text verzi"
+    subscription:
+      title:
+        section: 
+          one: Přihlásit se k odebírání Newsletteru
+          other: Přihlásit se k odebírání Newsletterů
+  adva:
+    adva_newsletters:
+      columns:
+        name: Název
+        issues: Články
+        subscribers: Přihlášených k odebírání
+    adva_issues:
+      columns:
+        name: Název
+        created_at: Vytvořen
+    adva_suscriptions:
+      columns:
+        name: Název
+        email: E-mail
+        subscribed_at: Přihlášen
+    newsletters:
+      links:
+        index: Newslettery
+        new: Nový
+        create_now: Create one now
+        edit: Upravit
+        delete: Smazat
+      hints:
+        newsletter: Využijte funkci Newsletter pro zasílání informačních e-mailů uživatelům vaši stránky. Můžete vytvářet skupiny uživatelů a skupiny newsletterů pro lepší správu odesílání. Vytvořte články které budou odeslány všem přihlášeným uživatelům.
+    issues:
+      confirm_delete: Opravdu chcete tento článek smazat?
+      links:
+        index: Články
+        new: Nový
+        edit: Upravit
+        delete: Smazat
+      hints:
+        tracking: 'Pokud chcete použít Google Analytics pro sledování vašich článků, aktivujte ji vyplněním vašeho Google Analytics Tracking Code na stránce s vaším nastavením'
+    subscriptions:
+      confirm_delete: Opravdu chcete odstranit tohoto uživatele ze seznamu příjemců?
+      links:
+        index: Příjemci
+        new: Nový
+        edit: Upravit
+        delete: Odstranit
+      no_users_available: Nejsou žádní uživatelé, kterří by mohli být přidáni do seznamu příjemců.
+    newsletter:
+      confirm_delete: Opravdu chcete odstranit tentonewsletter?
+      no_newsletters: Nemáte žádné novinky.
+      question_publish_newsletter: Můžeme ho uveřejnit?
+      confirm_save_as_draft: Ano, uložit tento článek jako koncept
+      deleted_issues: Smazat články
+      no_deleted_issues: Koš je prázdný.
+      total_newsletters: "Celkem newsletterů: {{newsletters_count}}"
+      total_issues: "Celkem článků: {{issues_count}}"
+      total_subscribers: "Celkem odběratelů: {{subscriptions_count}}"
+      delivered_at: "Odeslat {{delivered_time}}"
+      no_issues: Nemáte žádné články.
+      question_save_issue_as_draft: Ano, uložit tento článek jako koncept.
+      flash:
+        delivery_cancellation_success: Odesílání bylo úspěšně zrušeno.
+        delivery_cancellation_failed: 'Odesíllání nemohlo být zrušeno, protože článek byl již odeslán.'
+        delivery_start_failed: 'Odesílání se nezdařilo, protože článek čeká na odeslání, nebo byl již odeslán.'
+        issue_moved_to_trash_success: Článek byl přesunut do koše.
+        newsletter_moved_to_trash_success: Newsletter byl přesunut do koše.
+        update_success: Newsletter byl úspěšně upraven!
+        send_preview_issue: Byl vám odeslán náhled.
+        send_preview_issue_failed: Odeslání náhledu článku se vám nezdařilo.
+        send_all: Článek byl přidán do čekajících na odeslání.
+        send_all_later: Článek byl přidán do čekajících na odeslání a bude odeslán později.
+        issue_create_success: Článek newsletteru byl vytvořen.
+        issue_update_success: Článek newsletteru byl upraven.
+      button:
+        send_issue: Odeslat
+        preview_issue: Náhled
+        cancel_delivery: Zrušit odesílání
+        send_now: Odeslat nyní
+        send_later: Odeslat později
+      link:
+        index: Newslettery
+        new: Nový
+        issues: Články
+        subscribers: Přihlášení
+        send_preview_issue: Odeslat náhled
+        new_issue: Vytvořit nový článek
+        issue_index: Články
+        edit_issue: Upravit článek
+        delete_issue: Smazat článek
+      label:
+        header: Newslettery
+        title: Jméno newsletteru
+        desc: Popis
+        name: Název
+        issues: Články
+        subscribers: Přihlášení
+        deleted_issues: Smazat články
+        email: E-maily s Newslettery budou odesílány z
+        published: Po uveřejnění se budou moci ořihlašovat uživatelé k odebírání.
+        issue_name: Jméno
+        issue_created_at: Vytvořeno
+        issue_deliver_at: Odeslat
+        issue_deliver_at_long: "Článek bude odeslán {{delivery_time}}"
+        autocopy: Autocopy
+      title:
+        new: Nový newsletter
+        edit: Upravit newsletter
+        edit_issue: Upravit článek
+      confirm:
+        send_preview_issue: "Článek bude odeslán jen vám jako náhled."
+        save_as_draft: Uložit jako koncept?
+        save_issue_as_draft: Uložit jako koncept?

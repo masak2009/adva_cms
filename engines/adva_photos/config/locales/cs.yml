@@ -1,0 +1,114 @@
+cs:
+  activerecord:
+    attributes:
+      album:
+        title: Název
+        permalink: Permalink
+        published: Published
+        photos_per_page: Fotografií na stránku
+        content_filter: Filtr
+      photo:
+        published_at: "Zveřejnit:"
+
+  adva:
+    titles:
+      photos: Fotografie
+    sets:
+      hints:
+        reorder: 'Můžete využít možnosti Změny pořadí, aby jste mohli změnit pořadí vašich alb. Pokud chcete měnit pořadí alb, můžete album přesunout do prava (uchopit a potáhnout), pak se toto album nastaví jako potomek alba nad ním. Práci ukončíte kliknutím na tlačítko "Změna pořadí". Tato možnost je přístupná jen pokud máte vytvořeny dvě a více alb.'
+        parent_setting: 'Vybráním rodiče vašemu albu sváže vaše album s rodičem. Zanechte prázdné, pokud chcete toto album vytvořit jako hlavní' 
+        parent_setting_for_edit: 'Můžete požít tlačítko "Změna pořadí" na seznamu, pro seskupení a změnu pořadí vašich alb. Další návod naleznete na seznamu alb.'
+        permalink: "Prosím nepoužívejte speciální znaky např:$%&!"
+      links:
+        index: Alba
+        new: Nový
+        edit: Upravit
+        delete: Smazat
+    albums:
+      photos_count:
+        one: "{{count}} fotografie"
+        few: "{{count}} fotografie"
+        other: "{{count}} fotografií"
+      photos_published_count: "{{count}} zveřejněných"
+      photos_draft_count:
+        one: "{{count}} koncept"
+        few: "{{count}} koncepty"
+        other: "{{count}} konceptů"
+    photos:
+      columns:
+        title: Název
+        name: Jméno
+        comments: Komentáře
+        published: Zveřejněna
+        author: Autor
+        photo: Fotografie
+      name: Fotografie
+      confirm_delete: "Opravdu chcete tuto fotografii smazat?"
+      common:
+        save_as_draft: Uložit jako koncept
+        save_as_draft_label: Uložit tuto fotografii / tyto fotografie jako koncept
+        photos: Fotografie
+        sets: Alba
+        settings: Nastavení
+        manage: Spravovat
+        actions: Akce
+        title: Název
+        comments: Komentáře
+        published: Zveřejněna
+        author: Autor
+        album_settings: Nastavení alb
+        edit_set: Upravit album
+      links:
+        index: Fotografi
+        new: Nový
+        edit: Upravit
+        delete: Smazat
+      admin:
+        photos:
+          choose_photo: Vyberte fotografii
+          replace_photo: Nahradit fotografii
+          upload_photo: Nahrát fotografii
+          delete_photo: Smazat fotografii
+          delete_photo_confirmation: "Opravdu chcete tuto fotografii smazat?"
+          publish_in_set: Zveřejnit fotografii v albech
+          total: "Celkem fotografií: {{total_entries}}"
+          no_photo_in_album: Ve vašem albu nemáte žádné fotografie.
+          upload_now: Nahrát novou
+        sets:
+          delete_confirmation: Opravdu chcete smazat toto album?
+          create: Vytvořit nové album
+          delete: Smazat toto album
+          reorder: Změnit pořadí alb
+          total: "celkem alb: {{total_entries}}"
+          no_set: Zatím nejsou vytvořena žádná alba.
+          create_now: Vytvořit nové
+      albums:
+        uploaded_by: "Nahráno: {{author_name}}"
+        edit: Upravit tuto fotografii
+      flash:
+        photo:
+          set_photo:
+            failure: Požadovaná fotografie nebyla nalezena.
+          set_set:
+            failure: Požadované album nebylo nalezeno.
+          set_tags:
+            failure: Požadovaný tag nebyl nalezen.
+          create:
+            success: Fotografie byla úspěšně nahrána.
+            failure: Fotografie nebyla nahrána.
+          update:
+            success: Fotografie byla úspěšně upravena.
+            failure: Fotografie nebyla upravena.
+          destroy:
+            success: Fotografie byla odstraněna.
+        set:
+          create:
+            success: Album bylo úspěšně uloženo.
+            failure: Album nemohlo být uloženo.
+          update:
+            success: Album bylo úspěšně upraveno.
+            failure: Album nemohlo být upraveno.
+          destroy:
+            success: Album bylo odstraněno.
+      params:
+        author: Autor a current_user není vyplněno.
