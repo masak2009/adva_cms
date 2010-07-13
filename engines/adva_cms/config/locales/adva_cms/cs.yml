@@ -3,6 +3,60 @@ cs:
     errors:
       messages:
         only_integer: může být jen celé číslo.
+  date:
+    order: [ :day, :month, :year ]
+    formats:
+      default: "%d. %m. %Y"
+      short:  "%d %b"
+      long: "%d. %B %Y"
+    day_names: [Sobota, Neděle, Pondělí, Úterý, Středa, Čtvrtek, Pátek] 
+    abbr_day_names: [So, Ne, Po, Út, St, Čt, Pá]
+    month_names: [~, Leden, Únor, Březen, Duben, Květen, Červen, Červenec, Srpen, Září, Říjen, Listopad, Prosinec]
+    abbr_month_names: [~, Led, Úno, Bře, Dub, Kvě, Čvn, Čvc, Srp, Zář, Říj, Lis, Pro]
+  datetime:
+    distance_in_words:
+      half_a_minute: 'necelou minutou'
+      less_than_x_seconds:
+        one: 'méně než jednou sekundou'
+        few: 'méně než {{count}} sekundami'
+        other: 'méně než {{count}} sekund'
+      x_seconds:
+        one: '1 sekunda'
+        few: '{{count}} sekundy'
+        other: '{{count}} sekund'
+      less_than_x_minutes:
+        one: 'méně než jedna minuta'
+        few: 'méně než {{count}} minuty'
+        other: 'méně než {{count}} minut'
+      x_minutes:
+        one: '1 minuta'
+        few: '{{count}} minuty'
+        other: '{{count}} minut'
+      about_x_hours:
+        one: 'asi jednou hodinou'
+        few: 'asi {{count}} hodinami'
+        other: 'asi {{count}} hodinami'
+      x_days:
+        one: '1 den'
+        few: '{{count}} dny'
+        other: '{{count}} dnů'
+      about_x_months:
+        one: 'asi jeden měsíc'
+        few: 'asi {{count}} měsíce'
+        other: 'asi {{count}} měsíců'
+      x_months:
+        one: '1 měsíc'
+        few: '{{count}} měsíce'
+        other: '{{count}} měsíců'
+      about_x_years:
+        one: 'asi 1 rok'
+        few: 'asi {{count}} roky'
+        other: 'asi {{count}} let'
+      over_x_years:
+        one: 'víc než jeden rok'
+        few: 'víc než {{count}} roky'
+        other: 'víc než {{count}} let'
+  
   adva:
     common:
       change_language: "Změnit jazyk:"
@@ -300,7 +354,7 @@ cs:
           tags: tagged jako
           title: Název obsahuje
           body: Tělo obsahuje
-          draft: koncept
+          draft: koncept`
       tabs:
         article: Článek
         comments: Komentáře

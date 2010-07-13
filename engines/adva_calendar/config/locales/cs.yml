@@ -53,11 +53,11 @@ cs:
         publish_in_categories: Zveřejnit v těchto kategoriích
         actions: Akce
         formats:
-          year_month_day: 'on %e %B %Y'
-          year_month: 'in %B %Y'
-          year: 'in %Y'
+          year_month_day: ' %e %B %Y'
+          year_month: 'v %B %Y'
+          year: 'v %Y'
         in_category: v {{title}}
-        tagged: tagged {{tags}}
+        tagged: tagů {{tags}}
         events: Události
         all_day: Celý den
       flash:
