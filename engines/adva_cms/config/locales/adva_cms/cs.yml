@@ -1004,7 +1004,6 @@ cs:
         tracking_code: 'Pro aktivaci Google Analytics zadejte Google Analytics Tracking Code (UA-xxxxxxx-x). Pokud nic nevyplníte, funkce Google Analytics se deaktivuje'
         no_tracking_code: 'Pokud chcete použít Google Analytics pro sledování vašich záležitostí, aktivujte ji vyplněním vašeho Google Analytics Tracking Code na stránce s vaším nastavením'
         glossary: "Nebylo specifikováno, co zde použít. Jděte na {{link}} pro další informace."
-        Not sure what to use here? Check {{link}} for further information.
         glossary_name: nápověda Google Analytics
     spam:
       hints:
